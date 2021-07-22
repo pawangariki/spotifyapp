@@ -1,0 +1,104 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.content-container1 {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+}
+.profile-pic {
+  width: 90px;
+  height: 90px;
+}
+.username {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+.followers-num {
+  ont-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #1db954;
+}
+.content-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.followers-container {
+  margin-right: 30px;
+}
+.followers-text {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #9b9b9b;
+}
+.button-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+}
+.button {
+  
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-pic {
+    width: 140px;
+    height: 140px;
+  }
+  .content-container1 {
+    width: 40%;
+    text-align: center;
+  }
+  .profile-pic {
+    height: 150px;
+    width: 150px;
+  }
+  .username {
+    font-size: 48px;
+  }
+  .content-container2 {
+    font-size: 18px;
+  }
+}
